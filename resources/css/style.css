@@ -15,6 +15,10 @@ body {
 	text-align: center;
 }
 
+h2, h3, h4 {
+	padding: 10px;
+}
+
 
 /* header styling */
 
@@ -27,6 +31,7 @@ header {
 	background-color: black;
 	justify-content: space-between;
 	width: 100%;
+	border-bottom: 1px solid seashell;
 }
 
 .logo {
@@ -75,7 +80,6 @@ header {
 
 .mission-text {
 	background-color: black;
-	padding: 3px;
 }
 
 /* featured */
