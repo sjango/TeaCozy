@@ -1,6 +1,10 @@
+/*
+
 * {
-	border: 1px dotted grey;
+	border: 1px dotted white;
 }
+
+*/
 
 body {
 	background-color: black;
@@ -10,6 +14,7 @@ body {
 	opacity: 0.9;
 	text-align: center;
 }
+
 
 /* header styling */
 
@@ -70,6 +75,7 @@ header {
 
 .mission-text {
 	background-color: black;
+	padding: 3px;
 }
 
 /* featured */
@@ -78,21 +84,16 @@ header {
 	display: flex;
 	flex-direction: column;
 	width: 1000px;
-	margin: auto;
+	margin: 0 auto;
 }
 
-.row-3columns {
-	display: flex;
-	justify-content: space-between;
-}
-
-.row-2columns {
+.pic-row {
 	display: flex;
 	justify-content: center;
 }
 
-.row-2columns .pic-container {
-	padding: 0 25px;
+.pic-container {
+	margin: 0 25px;
 }
 .pic-container img {
 	width: 300px;
@@ -102,4 +103,53 @@ header {
 .pic-container h4 {
 	margin-top: 10px;
 }
+
+/*locations*/
+
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.locations-text {
+	margin-bottom: 15px;
+}
+
+.adress-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+
+.adress {
+	background-color: black;
+	width: 300px; 
+	margin: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.adress span,
+
+.adress h3
+ {
+	padding: 20px 0;
+	margin: 0;
+}
+
+/*footer*/
+
+.contact {
+	height: 200px;
+}
+.copyright {
+	padding-left: 20px;
+	text-align: left;
+}
+
 
