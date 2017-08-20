@@ -72,3 +72,34 @@ header {
 	background-color: black;
 }
 
+/* featured */
+
+#featured {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	margin: auto;
+}
+
+.row-3columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-2columns {
+	display: flex;
+	justify-content: center;
+}
+
+.row-2columns .pic-container {
+	padding: 0 25px;
+}
+.pic-container img {
+	width: 300px;
+	height: 200px;
+}
+
+.pic-container h4 {
+	margin-top: 10px;
+}
+
